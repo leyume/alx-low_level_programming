@@ -1,6 +1,5 @@
 /*
  * File: 6-abs.c
- * Auth: Keenmuhamad
  */
 
 #include "main.h"
