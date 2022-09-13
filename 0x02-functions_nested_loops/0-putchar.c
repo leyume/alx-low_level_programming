@@ -2,12 +2,9 @@
  * File: 0-putchar.c
  */
 #include "main.h"
-/*
- * main - This code prints putchar
- *
- * description: 'a program that prints putchar followed by a new line'
- *
- * Return: Always 0 (Success)
+/**
+ * main - This code prints _putchar
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -21,5 +18,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
-
