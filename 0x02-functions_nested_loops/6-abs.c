@@ -1,12 +1,17 @@
 /*
  * File: 6-abs.c
+ * Auth: Keenmuhamad
  */
 
 #include "main.h"
-
-int _abs(int num)
+/**
+ * _abs - calculate absolute value of the number from zero.
+ * @i: parameter.
+ * Return: absolute value of input.
+ */
+int _abs(int i)
 {
-	if (num < 0)
-		num = num * -1;
-	return (num);
+	if (i < 0)
+		i = i * -1;
+	return (i);
 }

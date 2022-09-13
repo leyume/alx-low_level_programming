@@ -1,8 +1,14 @@
 /*
  * File:2-print_alphabet_x10.c
+ * Auth: Keenmuhammd
  */
 #include "main.h"
-
+/**
+ * print_alphabet_x10 - This code writes a function
+ *	that prints 10 times the
+ *	alphabet in lowercase
+ * Return: 0 on success
+ */
 void print_alphabet_x10(void)
 {
 	int i;

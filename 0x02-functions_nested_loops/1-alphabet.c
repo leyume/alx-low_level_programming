@@ -1,9 +1,12 @@
 /*
- * File: 1-alphabet.c 
+ * File: 0-positive_or_negative.c
+ * Auth: Keenmuhammd
  */
 #include "main.h"
-/*
- * function that prints the alphabet, in lowercase, followed by a new line.
+/**
+ * print_alphabet -This program prints
+ *		 the english alphabet from a-z.
+ * Return: Void.
  */
 void print_alphabet(void)
 {
@@ -13,7 +16,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
-
 }
