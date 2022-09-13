@@ -1,6 +1,5 @@
 /*
  * File: 7-print_last_digit.c
- * Auth: Keenmuhammad
  */
 
 #include "main.h"
