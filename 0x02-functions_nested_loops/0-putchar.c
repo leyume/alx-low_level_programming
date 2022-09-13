@@ -4,6 +4,10 @@
  */
 #include "main.h"
 
+/*
+ *  prints _putchar, followed by a new line.
+ */
+
 int main(void)
 {
 	char c[] = "_putchar";
