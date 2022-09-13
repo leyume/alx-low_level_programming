@@ -1,6 +1,5 @@
 /*
  * File: 9-times_table.c
- * Auth: Keenmuhammad
  */
 
 #include "main.h"
