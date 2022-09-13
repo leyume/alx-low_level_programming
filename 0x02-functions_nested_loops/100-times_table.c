@@ -1,5 +1,5 @@
 /*
- * File: 7-print_last_digit.c
+ * File: 100-times_table.c
  */
 #include "main.h"
 /**
@@ -9,7 +9,7 @@
  */
 void print_times_table(int n)
 {
-  int x, y, result;
+	int x, y, result;
 
 	if (!(n > 15 || n < 0))
 	{
