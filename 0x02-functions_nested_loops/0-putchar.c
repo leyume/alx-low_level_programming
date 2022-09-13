@@ -1,11 +1,13 @@
 /*
  * File: 0-putchar.c
- * Details: main
  */
 #include "main.h"
 /*
  * main - This code prints putchar
- * Return: 0 on success
+ *
+ * description: 'a program that prints putchar followed by a new line'
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
