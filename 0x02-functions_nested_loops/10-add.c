@@ -1,6 +1,5 @@
 /*
  * File: 10-add.c
- * Auth: Keenmuhammad
  */
 
 #include "main.h"
