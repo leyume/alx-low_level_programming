@@ -1,10 +1,11 @@
-
 /*
  * File: 0-putchar.c
+ * Details: main
  */
 #include "main.h"
-/**
- *  prints _putchar, followed by a new line.
+/*
+ * main - This code prints putchar
+ * Return: 0 on success
  */
 int main(void)
 {
