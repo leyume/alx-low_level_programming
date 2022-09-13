@@ -1,6 +1,5 @@
 /*
  * File: 4-isalpha.c
- * Auth: Keenmuhammd
  */
 
 #include "main.h"
