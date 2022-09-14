@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long int n1 = 1, n2 = 2, n, result = 2;
+	long int n1 = 1, n2 = 2, n = 0, result = 2;
 
 	while (n < 4000000)
 	{
