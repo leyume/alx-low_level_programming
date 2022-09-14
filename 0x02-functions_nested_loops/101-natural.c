@@ -1,7 +1,7 @@
 /*
  * File: 101-natural.c
  */
-#include "main.h"
+#include "stdio.h"
 /**
  * main - This code prints sum of multiples of 3 or 5
  * Return: Nothing
