@@ -6,7 +6,7 @@
  * main - This code prints first 50 fibonacci numbers
  * Return: Nothing
  */
-void main(void)
+int main(void)
 {
 	int n1 = 1, n2 = 2, n;
 
