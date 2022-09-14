@@ -17,7 +17,7 @@ int main(void)
 		n = n1 + n2;
 		n1 = n2;
 		n2 = n;
-		printf(", %d", n);
+		printf(", %ld", n);
 	}
 	putchar('\n');
 	return (0);
