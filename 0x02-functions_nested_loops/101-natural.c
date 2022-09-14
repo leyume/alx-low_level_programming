@@ -18,6 +18,6 @@ int main(void)
 		}
 	}
 	printf("%d", result);
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
