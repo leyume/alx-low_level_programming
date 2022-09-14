@@ -17,7 +17,7 @@ int main(void)
 			result += x;
 		}
 	}
-	_putchar(result);
+	printf("%d", result);
 	_putchar('\n');
 	return (0);
 }
