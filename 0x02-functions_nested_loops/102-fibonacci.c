@@ -13,7 +13,7 @@ int main(void)
 
 	printf("1, 2");
 
-	for (x = 3; x < 50; x++)
+	for (x = 3; x <= 50; x++)
 	{
 		n = n1 + n2;
 		n1 = n2;
