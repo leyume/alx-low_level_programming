@@ -10,15 +10,11 @@ int main(void)
 {
 	long int n1 = 1, n2 = 2, n, result = 2;
 
-	while (true)
+	while (n < 4000000)
 	{
 		n = n1 + n2;
 		n1 = n2;
 		n2 = n;
-		if (n >= 4000000)
-		{
-			break;
-		}
 
 		if (n % 2 == 0)
 		{
