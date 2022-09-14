@@ -19,4 +19,5 @@ int main(void)
 	}
 	_putchar(result);
 	_putchar('\n');
+	return (0);
 }
