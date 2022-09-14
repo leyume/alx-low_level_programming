@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int n1 = 1, n2 = 2, n, x;
+	long int n1 = 1, n2 = 2, n;
+	int x;
 
 	printf("1, 2");
 
