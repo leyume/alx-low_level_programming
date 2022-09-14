@@ -14,11 +14,9 @@ int main(void)
     {
         if( ( x % 5 == 0 ) || ( x % 3 == 0 ) )
         {
-            result += x
+            result += x;
         }
     }
-
     _putchar(result);
     _putchar('\n');
-
 }
