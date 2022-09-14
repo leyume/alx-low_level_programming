@@ -1,9 +1,9 @@
 /*
- * File: 102-fibonacci.c
+ * File: 104-fibonacci.c
  */
 #include "stdio.h"
 /**
- * main - This code prints first 50 fibonacci numbers
+ * main - This code prints first 98 fibonacci numbers
  * Return: Nothing
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		n = n1 + n2;
 		n1 = n2;
 		n2 = n;
-		printf(", %ld", n);
+		printf(", %l64d", n);
 	}
 	putchar('\n');
 	return (0);
