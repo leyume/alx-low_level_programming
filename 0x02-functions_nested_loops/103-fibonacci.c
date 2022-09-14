@@ -1,17 +1,16 @@
 /*
- * File: 102-fibonacci.c
+ * File: 103-fibonacci.c
  */
 #include "stdio.h"
 /**
- * main - This code prints first 50 fibonacci numbers
+ * main - This code sums prints first fibonacci numbers up to 4,000,000
  * Return: Nothing
  */
 int main(void)
 {
-	long int n1 = 1, n2 = 2, n, result = 0;
-	int x;
+	long int n1 = 1, n2 = 2, n, result = 2;
 
-	for (x = 3; x <= 50; x++)
+	while (true)
 	{
 		n = n1 + n2;
 		n1 = n2;
