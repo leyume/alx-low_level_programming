@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - random password generator for 101-crackme
  * Return: always 0
@@ -16,6 +17,7 @@ int main(void);
 	while (s != 2772)
 	{
 		i = k = s = 0;
+		
 		while ((2772 - 122) > s)
 		{
 			j = rand() % 62;
@@ -23,6 +25,7 @@ int main(void);
 			s += c[j];
 			i++;
 		}
+		
 		while (c[k])
 		{
 			if (c[k] == (2772 - s))
@@ -35,7 +38,9 @@ int main(void);
 			k++;
 		}
 	}
+	
 	p[i] = '\0';
 	printf("%s", p);
+	
 	return (0);
 }
