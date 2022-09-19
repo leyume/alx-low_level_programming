@@ -2,12 +2,12 @@
 #define MAIN_H
 
 /**
-*main - header file for protoypes
-*void protoypes (void)
-*int protoypes (int)
-*@c: prints character
-*_putchar: instead of printf
-*Return: Success
+* main - header file for protoypes
+* void protoypes (void)
+* int protoypes (int)
+* @c: prints character
+* _putchar: instead of printf
+* Return: Success
 */
 
 int _putchar(char c);
