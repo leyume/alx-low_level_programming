@@ -1,19 +1,29 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _strpbrk - finds first matching char in string
- * @s: input string to search for matching char
- * @accept: characters that could be matched
- * Return: pointer to matching char
+ * _strpbrk - prints the consecutive caracters of s1 that are in s2.
+ * @s: source string
+ * @accept: searching string
+ *
+ * Return: new string.
  */
 char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
-	for (i = 0; s[i] != '\0'; i++)
-		for (j = 0; accept[j] != '\0'; j++)
-			if (s[i] == accept[j])
-				goto exit;
-exit: return (s[i] != '\0' ? s + i : '\0');
+	for (i = 0; *(s + i); i++)
+	{
+		for (j = 0; *(accept + j); j++)
+		{
+			if (*(s + i) == *(accept + j))
+			{
+				break;
+			}
+		}
+		if (*(accept + j) != '\0')
+		{
+			return (s + i);
+		}
+	}
+	return (0);
 }
-
