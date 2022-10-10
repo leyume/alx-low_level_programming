@@ -1,1 +1,1 @@
-C Programming
+Project: C - Structures, typedef
