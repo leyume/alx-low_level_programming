@@ -1,1 +1,1 @@
-# Project 0x1E-search_algorithms
+# Project: 0x1E-search_algorithms
